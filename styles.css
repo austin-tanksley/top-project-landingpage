@@ -1,15 +1,22 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: "Roboto"; */
     margin: 0;
+    padding: 0;
 }
 
 .header {
     background-color: #1f2937;
     color: #F9Faf8;
     display: flex;
+    justify-content: center;
+    
+}
+.header .content {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 192px;
+    flex-grow: 1;
+    max-width: 1024px;
 }
 
 .logo {
@@ -26,5 +33,59 @@ ul {
 li {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #F9Faf8;
+    display: flex;
+    justify-content: center;
+    padding: 64px 0px;
+}
+
+.hero .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    max-width: 1024px;
+    gap: 64px;
+}
+
+#hero-image {
+    height: auto;
+    width: 600px;
+    border-radius: 16px;
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+h1 {
+    font-size: 48px;
+    margin: 0px;
+    line-height: 48px;
+    font-weight: 900;
+}
+p {
+    margin: 0px;
+    font-size: 18px;
+}
+
+#hero-text p {
+    color: #e5e7eb;
+}
+
+button {
+    border: none;
+    background-color: #3882f6;
+    border-radius: 4px;
+    color:#e5e7eb;
+    padding: 4px 24px;
+    font-weight: 500;
+    font-size: 18px;
 }
 
