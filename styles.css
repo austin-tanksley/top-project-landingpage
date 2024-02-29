@@ -134,5 +134,33 @@ button {
 h2 {
    color: #1f2937;
    font-size: 36px;
-    margin: 48px 0px;
+   margin: 48px 0px;
 }
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding: 64px 0px;
+}
+
+.quote .content {
+    max-width: 824px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0px 16px;
+    flex-shrink: 1;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quoted {
+    font-weight: bold;
+}
+
+
